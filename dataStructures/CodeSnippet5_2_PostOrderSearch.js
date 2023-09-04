@@ -14,6 +14,20 @@ class BinarySearchTree {
       
         traverse(current);
         return visited;
-      }
+    }
+
+    // function preOrder(root) {
+    //   let visited = [],
+    //   current = root;
+      
+    //   let traverse = root => {
+    //       visited.push(root.data);
+    //       if (root.left) traverse(root.left);
+    //       if (root.right) traverse(root.right);
+    //   };
+      
+    //   traverse(current);
+    //   console.log(...visited);
+    // }
       
 }
